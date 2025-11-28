@@ -1,0 +1,28 @@
+:root { --max: 900px; }
+* { box-sizing: border-box; }
+body { font-family: system-ui, -apple-system, Arial, sans-serif; line-height: 1.5; margin: 0; color: #222; }
+header { border-bottom: 1px solid #ddd; }
+.container { max-width: var(--max); margin: 0 auto; padding: 1rem; }
+nav { display: flex; gap: .75rem; flex-wrap: wrap; }
+nav a { text-decoration: none; color: #0a66c2; padding: .25rem .5rem; border-radius: .5rem; }
+nav a[aria-current="page"], nav a:hover { background: #eaf3ff; }
+
+h1, h2, h3 { margin: .2rem 0 .6rem; }
+.small { font-size: .875rem; color: #666; }
+
+.card { border: 1px solid #ddd; border-radius: .5rem; padding: 1rem; margin: 1rem 0; background: #fff; }
+label { display: block; margin-bottom: .25rem; }
+select, button { padding: .5rem .75rem; font: inherit; }
+button { cursor: pointer; }
+
+/* Table simple et lisible */
+table { width: 100%; border-collapse: collapse; }
+th, td { border: 1px solid #ddd; padding: .5rem; text-align: left; }
+thead th { background: #f5f5f5; }
+tfoot th { background: #fafafa; }
+
+/* Responsive très basique */
+@media (max-width: 520px) {
+  nav { justify-content: center; }
+  .container { padding: .75rem; }
+}

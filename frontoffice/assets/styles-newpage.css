@@ -1,0 +1,40 @@
+header{
+    background-color: #0299D9;
+    height: 100px;
+    color: #D5DFD8;
+    text-align: center;
+    font-size: 55px;
+}
+
+nav{
+    background-color: #0255D9;
+    height: 60px;
+    color: #D5DFD8;
+    font-size: 20px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+nav a{
+    border: #D5DFD8 solid 1px;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #D5DFD8;
+    display: inline-block;
+    margin-right: 40px;
+    border-radius: 10px;
+    background-color: #0299D9;
+}
+
+nav a:active{
+    border: #D5DFD8 solid 1px;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #D5DFD8;
+    display: inline-block;
+    margin-right: 40px;
+    border-radius: 10px;
+    background-color: #018ac5;
+}
